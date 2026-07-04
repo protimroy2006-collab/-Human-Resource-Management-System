@@ -1,10 +1,12 @@
-# Enigma's management - Human Resource Management System (HRMS)
+# Enigma's management - Human Resource Management System (HRMS)  .
 
 Every workday, perfectly aligned. A high-performance, secure, and visually stunning web application built for workforce coordination.
 
 ---
 
-## 🚀 Industry-Grade Feature Classification
+## 🚀 Industry-Grade Feature Classification  .
+
+
 
 ### 1. Identity & Access Management (IAM)
 - **Role-Based Access Control (RBAC)**: Enforces hard boundaries between two primary roles:
