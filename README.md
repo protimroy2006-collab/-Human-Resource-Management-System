@@ -17,25 +17,35 @@ Every workday, perfectly aligned. A high-performance, secure, and visually stunn
 - **Dynamic Image CAPTCHA Verification**: Built-in automated image CAPTCHAs generated dynamically using Pillow to prevent brute-force attacks on signup and signin forms.
 - **Application-Level Row-Level Security (RLS)**: Enforces data isolation where the backend validates the user context (`session['user_id']`, `session['role']`) before responding to database queries, preventing horizontal privilege escalations.
 
+  
+
 ### 2. Core Workforce Management & Core HR
 - **Employee ID Auto-Generation**: Signup automatically assigns a unique, non-colliding `EMP####` identifier if left blank.
 - **Interactive Directory Operations (Admin CRUD)**: HR managers have dedicated local APIs to register new employees and run cascade deletions that clean up related profile details, leaves, payroll records, and attendance.
 - **Limited Employee Profile Self-Service**: Employees can edit limited fields (address, phone, profile picture), while Admins maintain editing access over job titles, departments, salaries, and joining dates.
+
+  
 
 ### 3. Time & Attendance Tracking
 - **Skeuomorphic Clock Dashboard**: Interactive check-in and check-out tracking buttons with tactile 3D physical states.
 - **Status Markers**: Visual indicators highlighting working status: `Present`, `Absent`, `Half-day`, and `Leave`.
 - **Granular Views**: Daily and weekly records restricted to own view for employees, and search-filterable company-wide lists for admins.
 
+  
+
 ### 4. Leave & Time-Off Management
 - **Request Pipeline**: Employees can request `Paid`, `Sick`, or `Unpaid` leave by selecting start and end dates with optional remarks.
 - **HR Review Workflows**: Admins can approve or reject pending leave requests with custom comments.
 - **Cascading Attendance Updates**: Once an Admin approves a leave request, the system automatically writes `Leave` status markers in the attendance database for the entire date range.
 
+  
+
 ### 5. Compensation & Benefits (Payroll)
 - **Salary Structure Visibility**: Displays details for basic salary, allowances, and deductions.
 - **Read-Only Access for Employees**: Payroll summaries are strictly read-only for employees.
 - **Admin Control Panel**: Full access for HR officers to adjust basic salary, allowances, and deductions, with automatic calculation of net pay.
+
+  
 
 ---
 
