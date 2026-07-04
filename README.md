@@ -4,6 +4,7 @@ Every workday, perfectly aligned. A high-performance, secure, and visually stunn
 
 ---
 
+
 ## 🚀 Industry-Grade Feature Classification  .
 
 
@@ -49,6 +50,7 @@ Every workday, perfectly aligned. A high-performance, secure, and visually stunn
 
 ## 📦 Installation & Setup
 
+
 1. **Prerequisites**: Ensure you have [uv](https://github.com/astral-sh/uv) installed.
 2. **Environment Initialization**:
    ```bash
@@ -77,6 +79,7 @@ A complete automated test suite is provided to verify authorization logic, CAPTC
 
 ## 📄 License
 This project is licensed under the **MIT License**.
+
 
 ```text
 MIT License
